@@ -226,7 +226,7 @@
             </div>
             <div class="row pb-50">
                 <div class="col-md-5 text-center">
-                    <img class="img-fluid img-wrapper" style="width: 250px;" src="/images/ImagineU.png">
+                    <img class="img-fluid img-wrapper" style="width: 250px;" src="/images/imagineU.png">
                 </div>
                 <div class="col-md-7">
                     <a href="http://www.imagineuaccelerator.com/about.html"><h5>Imagine U Accelerator</h5></a>
