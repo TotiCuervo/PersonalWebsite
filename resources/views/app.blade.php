@@ -16,6 +16,7 @@
 
 
     <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -125,6 +126,27 @@
                     cillum dolore eu fugiat
                     nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                     officia deserunt mollit</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="personal1" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 section-parallax paralsec-stjude pl-auto">
+            <div class="col-md-6 mt-100 float-right">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -241,110 +263,344 @@
                     <img class="img-fluid img-wrapper" src="/images/crewsLogo.jpg">
                 </div>
                 <div class="col-md-7">
-                    <h5>Entrepreneur Fellowship</h5>
+                    <a href="https://www.memphis.edu/crews/programs/cceresidency.php"><h5>Entrepreneur Fellowship</h5></a>
                     <h6>Crew's Center For Entrepreneurship</h6>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
                     </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="experience-CTA pb-50">
+                        <h1 class="text-muted">
+                            ...And Lots More. Download my Resume <a href="/files/TotiCuervoResume.pdf" target="_blank">Here</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-
 </section>
 
+<section id="personal2" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 section-parallax paralsec-stjude pl-auto">
+            <div class="col-md-6 mt-100 float-left">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-
-
-<section id="skills">
-    <div class="container">
+<section id="abilities">
+    <div class="container container-wrapper">
+        <h3>Skills</h3>
         <div class="row">
-
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    <li class="ptb-5">
+                        <span class="skill-title">Bootstrap Framework</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">HTML(5)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">CSS(3)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">MYSQL</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">PHP</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Java</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    <li class="ptb-5">
+                        <span class="skill-title">Object Oriented Programming</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Python</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Ruby</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Laravel Framework</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Ruby on Rails</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">VueJS</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-muted text-center pt-20">Currently developing skills on: React, React-Native, Unity, Swift</p>
+        <hr>
+        <h3>Tools</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    <li class="ptb-5">
+                        <span class="skill-title">Atlassian / Jira (2 years)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Git (4 years)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">PHPStorm (3 years)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="no-bullets">
+                    <li class="ptb-5">
+                        <span class="skill-title">Sublime Text (3 years)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Adobe Photoshop (6 years)</span>
+                    </li>
+                    <li class="ptb-5">
+                        <span class="skill-title">Microsoft Excel Certified (4 years)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <h3>Business</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <span class="skill-title">Public Speaking</span>
+            </div>
+            <div class="col-md-4">
+                <span class="skill-title">Agile Methodology</span>
+            </div>
+            <div class="col-md-4">
+                <span class="skill-title">Brand Development</span>
+            </div>
         </div>
     </div>
 </section>
-
-
-
 
 <section id="awards">
     <div class="container text-center">
+
         <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card passion-card shadow">
-                            <div class="card-body passion-card-body">
-                                <h3>Awards</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row pad-row">
-            <div class="col-md-3 pb-20">
+
+            <div class="col-md-4 text-center pad-20">
                 <a href="http://neverstop.co/winners-announced-from-pre-seed-pitch-competition-2/"
                    style="text-decoration: none; color:inherit;" target="_blank">
-                    <div class="card award-card shadow">
-                        <img src="/images/startco.png" class="card-img-top award-img img-fluid" alt="...">
-                        <div class="card-body">
-                            <h6><b>Start Co Pre-Seed Competition Winner</b></h6>
-                            <p class="card-text">StartCo, 2017</p>
-
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp" src="/images/startco.png">
+                            <h5 class="mb-0">Start Co Pre-Seed Competition Winner</h5>
+                            <small>StartCo, 2017</small>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 pb-20">
+
+            <div class="col-md-4 text-center pad-20">
                 <a href="https://cc.lambdachi.org/wp-content/uploads/2019/01/FINAL-InDesign-File-Jan-CC.pdf"
                    style="text-decoration: none; color:inherit;" target="_blank">
-                    <div class="card award-card shadow">
-                        <img src="/images/CC.png" class="card-img-top award-img img-fluid" alt="...">
-                        <div class="card-body">
-                            <h6><b>Doing The Impossible</b></h6>
-                            <p class="card-text">Cross & Crescent Magazine, 2019 </p>
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp w-230 h-auto mg-50-25" src="/images/CC.png" class="card-img-top award-img img-fluid">
+                            <h5 class="mb-0">Doing The Impossible</h5>
+                            <small>Cross & Crescent Magazine, 2019</small>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 pb-20">
+
+            <div class="col-md-4 text-center pad-20">
+
                 <a href="https://www.youtube.com/watch?v=VuM9Tj96hXE" style="text-decoration: none; color:inherit;"
                    target="_blank">
-                    <div class="card award-card shadow">
-                        <img src="/images/lcaMade.png" class="card-img-top award-img" alt="...">
-                        <div class="card-body">
-                            <h6><b>LCA Made</b></h6>
-                            <p class="card-text">Lambda Chi Alpha, 2019</p>
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/VuM9Tj96hXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            <h5 class="mb-0 mt-10">LCA Made: Toti Cuervo</h5>
+                            <small>Lambda Chi Alpha, 2019</small>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-md-3 pb-20">
-                <div class="card award-card shadow">
-                    <div class="card-title award-title"><h3>Other Awards</h3></div>
-                    <div class="card-body pt-0">
-                        <p class="card-text">
-                            <b>Best Overall Presentation</b>
-                            <br>
-                            <small class="d-sm-none d-md-block">AutoZone ToastMasters, 2018</small>
-                        </p>
-                        <br>
-                        <p class="card-text">
-                            <b>2nd Place & People’s Choice</b>
-                            <br>
-                            <small class="d-sm-none d-md-block">Fast Pitch Competition, 2018</small>
-                        </p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 text-center pad-20 offset-md-2">
+                <a href="https://www.toastmasters.org/"
+                   style="text-decoration: none; color:inherit;" target="_blank">
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp mx-75" src="/images/toastmasters.png">
+                            <h5 class="mb-0">Best Overall Presentation</h5>
+                            <small>AutoZone ToastMasters, 2018</small>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+            <div class="col-md-4 text-center pad-20">
+                <a href="https://www.memphis.edu/crews/fastpitch.php"
+                   style="text-decoration: none; color:inherit;" target="_blank">
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp mg-50-10" src="/images/crewsLogo.jpg">
+                            <h5 class="mb-0">2nd Place & People’s Choice</h5>
+                            <small>Fast Pitch Competition, 2018</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
         </div>
     </div>
 </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{--<section id="awards">--}}
+    {{--<div class="container text-center">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<div class="row">--}}
+                    {{--<div class="col-md-3">--}}
+                        {{--<div class="card passion-card shadow">--}}
+                            {{--<div class="card-body passion-card-body">--}}
+                                {{--<h3>Awards</h3>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="row pad-row">--}}
+            {{--<div class="col-md-3 pb-20">--}}
+                {{--<a href="http://neverstop.co/winners-announced-from-pre-seed-pitch-competition-2/"--}}
+                   {{--style="text-decoration: none; color:inherit;" target="_blank">--}}
+                    {{--<div class="card award-card shadow">--}}
+                        {{--<img src="/images/startco.png" class="card-img-top award-img img-fluid" alt="...">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h6><b>Start Co Pre-Seed Competition Winner</b></h6>--}}
+                            {{--<p class="card-text">StartCo, 2017</p>--}}
+
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 pb-20">--}}
+                {{--<a href="https://cc.lambdachi.org/wp-content/uploads/2019/01/FINAL-InDesign-File-Jan-CC.pdf"--}}
+                   {{--style="text-decoration: none; color:inherit;" target="_blank">--}}
+                    {{--<div class="card award-card shadow">--}}
+                        {{--<img src="/images/CC.png" class="card-img-top award-img img-fluid" alt="...">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h6><b>Doing The Impossible</b></h6>--}}
+                            {{--<p class="card-text">Cross & Crescent Magazine, 2019 </p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 pb-20">--}}
+                {{--<a href="https://www.youtube.com/watch?v=VuM9Tj96hXE" style="text-decoration: none; color:inherit;"--}}
+                   {{--target="_blank">--}}
+                    {{--<div class="card award-card shadow">--}}
+                        {{--<img src="/images/lcaMade.png" class="card-img-top award-img" alt="...">--}}
+                        {{--<div class="card-body">--}}
+                            {{--<h6><b>LCA Made</b></h6>--}}
+                            {{--<p class="card-text">Lambda Chi Alpha, 2019</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-3 pb-20">--}}
+                {{--<div class="card award-card shadow">--}}
+                    {{--<div class="card-title award-title"><h3>Other Awards</h3></div>--}}
+                    {{--<div class="card-body pt-0">--}}
+                        {{--<p class="card-text">--}}
+                            {{--<b>Best Overall Presentation</b>--}}
+                            {{--<br>--}}
+                            {{--<small class="d-sm-none d-md-block">AutoZone ToastMasters, 2018</small>--}}
+                        {{--</p>--}}
+                        {{--<br>--}}
+                        {{--<p class="card-text">--}}
+                            {{--<b>2nd Place & People’s Choice</b>--}}
+                            {{--<br>--}}
+                            {{--<small class="d-sm-none d-md-block">Fast Pitch Competition, 2018</small>--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
+
+
+
+{{--<section id="gallery">--}}
+{{--<div class="container-fluid nopad-lr">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12 text-center">--}}
+{{--<h3>I also give </h3>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-3 nopad-lr">--}}
+{{--<div class="embed-responsive embed-responsive-16by9">--}}
+{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/B5j1u73asiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--<div class="col-md-3 nopad-lr">--}}
+{{--<div class="embed-responsive embed-responsive-16by9">--}}
+{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/mGKb55Au82s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
+{{--</div>--}}
+{{--<div class="col-md-3 nopad-lr">--}}
+{{--<div class="embed-responsive embed-responsive-16by9">--}}
+{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/nhUFCJCZcJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
+{{--</div>--}}
+{{--<div class="col-md-3 nopad-lr">--}}
+{{--<div class="embed-responsive embed-responsive-16by9">--}}
+{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/d15x7L_K1-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+
+{{--</section>--}}
 
 
 

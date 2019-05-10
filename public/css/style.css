@@ -60,56 +60,6 @@
     border-radius: 25px;
 }
 
-
-
-/* Content */
-.content-wrapper {
-    position: static;
-    overflow: visible;
-    width: 60%;
-    max-width: 1200px;
-    margin-left: 40%;
-    float: none;
-    clear: none;
-    padding: 0px !important;
-    order: 2;
-
-}
-
-.segment {
-    width:100%;
-    height:auto;
-    padding: 65px;
-
-}
-
-/* Segment wrappers */
-.poop {
-    background-color:blue;
-}
-
-.plop {
-    background-color:yellow;
-}
-
-.no-padding{
-    padding: 0 !important;
-    padding-left: 0 !important;
-}
-
-#my-row {
-    display: table;
-    height: 20%;
-    width: 100%;
-}
-
-.container-page {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
 /*Parralax effect*/
 .paralsec {
     background-image: url("/images/pic1.jpg");
@@ -202,8 +152,12 @@
 .img-exp {
     padding: 10px;
 }
-/*End of Experience*/
 
+ul#business-skills li {
+    display:inline;
+}
+
+/*End of Experience*/
 
 /*Awards Section*/
 section#awards {
@@ -283,22 +237,9 @@ section#awards {
     padding-bottom: 50px;
 }
 
-.pad-row {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.pl-auto {
-    /*padding-top: 20vh;*/
-}
-
-.nopad-lr {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.fl-r {
-    float: right;
+.ptb-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .pt-0 {
@@ -309,20 +250,65 @@ section#awards {
     padding-top: 55px;
 }
 
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pad-row {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pl-auto {
+    /*padding-top: 20vh;*/
+}
+
 .pl-2 {
     padding-left: 2px;
 }
 
-.pt-30 {
-    padding-top: 30px;
+.nopad-lr {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .pad-20 {
     padding: 20px;
 }
 
-mb-0 {
+
+.mb-0 {
     margin-bottom:0;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-10 {
+    margin-top:10px;
+}
+
+.mx-75 {
+    max-width: 75%;
+}
+
+.mg-50-25 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.mg-50-10 {
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .w-230 {
@@ -333,12 +319,35 @@ mb-0 {
     height: auto;
 }
 
+.fl-r {
+    float: right;
+}
+
 .br-th {
     border: 3px solid rgba(0,0,0,.125);
 }
 
 .container-wrapper {
     padding: 40px 180px;
+}
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-wrapper {
+    position: static;
+    overflow: visible;
+    width: 60%;
+    max-width: 1200px;
+    margin-left: 40%;
+    float: none;
+    clear: none;
+    padding: 0px !important;
+    order: 2;
+
 }
 
 /*End of miscellaneous*/
@@ -407,8 +416,9 @@ section#education {
 
 
 /*Skills Section*/
-section#skills {
-    background-color: #2980b9;
+section#abilities {
+    background-color: #f7f7f7;
+    /*color: white;*/
 }
 
 /*End of Skills Section*/
