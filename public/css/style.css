@@ -528,20 +528,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        /*height: 200px;*/
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+                /*rgba(20,20,20, .5),*/
+                /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -555,21 +556,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -583,21 +584,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -611,21 +612,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -639,21 +640,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -667,21 +668,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 
@@ -696,21 +697,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -724,21 +725,21 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
-        height: 200px;
+        /*height: 200px;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
+        background-image: url("/images/mobileCover.jpg");
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/crewsLogo.jpg");
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5)),*/
+        /*url("/images/mobileCover.jpg");*/
     }
 
 }
