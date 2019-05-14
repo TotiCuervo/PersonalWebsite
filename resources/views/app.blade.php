@@ -568,14 +568,14 @@
             <div class="col-md-2 nopad-lr">
                 <a data-toggle="modal" data-target="#exampleModal7">
                     <div class="hovereffect">
-                        <img class="img-fluid gallery-img" src="/images/gallery/gallery2.jpg">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery8.JPG">
                     </div>
                 </a>
 
                 <div class="modal fade bd-example-modal-xl" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <img class="gallery-modal-img" src="/images/gallery/gallery7.jpg">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery8.JPG">
                         </div>
                     </div>
                 </div>
@@ -584,14 +584,14 @@
             <div class="col-md-2 nopad-lr">
                 <a data-toggle="modal" data-target="#exampleModal8">
                     <div class="hovereffect">
-                        <img class="img-fluid gallery-img" src="/images/gallery/gallery9.jpg">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery9.JPG">
                     </div>
                 </a>
 
                 <div class="modal fade bd-example-modal-xl" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <img class="gallery-modal-img" src="/images/gallery/gallery9.jpg">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery9.JPG">
                         </div>
                     </div>
                 </div>
@@ -600,14 +600,14 @@
             <div class="col-md-2 nopad-lr">
                 <a data-toggle="modal" data-target="#exampleModal9">
                     <div class="hovereffect">
-                        <img class="img-fluid gallery-img" src="/images/gallery/gallery10.jpg">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery10.JPG">
                     </div>
                 </a>
 
                 <div class="modal fade bd-example-modal-xl" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <img class="gallery-modal-img" src="/images/gallery/gallery10.jpg">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery10.JPG">
                         </div>
                     </div>
                 </div>
