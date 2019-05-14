@@ -568,14 +568,14 @@
             <div class="col-md-2 nopad-lr">
                 <a data-toggle="modal" data-target="#exampleModal7">
                     <div class="hovereffect">
-                        <img class="img-fluid gallery-img" src="/images/gallery/gallery8.jpg">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery2.jpg">
                     </div>
                 </a>
 
                 <div class="modal fade bd-example-modal-xl" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <img class="gallery-modal-img" src="/images/gallery/gallery8.jpg">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery7.jpg">
                         </div>
                     </div>
                 </div>
