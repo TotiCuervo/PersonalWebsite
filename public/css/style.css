@@ -555,8 +555,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -582,8 +583,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -609,8 +611,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -636,8 +639,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -663,8 +667,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -691,8 +696,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
@@ -718,8 +724,9 @@ section#abilities {
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
         background-position: center;
+        height: 200px;
         background-repeat: no-repeat;
-        background-size: contain ;
+        background-size: cover;
     }
 
     .paralsec {
