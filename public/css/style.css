@@ -280,6 +280,10 @@ section#awards {
     padding-left: 2px;
 }
 
+.pr-10 {
+    padding-right:10px;
+}
+
 .nopad-lr {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -375,6 +379,13 @@ section#awards {
 body {
     font-family: verdana, Sans-Serif;
 }
+
+ul#menu li {
+    display:inline;
+}
+
+
+
 /*Cards*/
 
 .intro-card {
@@ -578,6 +589,20 @@ section#abilities {
     }
 
 }
+
+/* Modal */
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+}
+
+/*.carousel-control-next-icon, .carousel-control-prev-icon {*/
+    /*background: black no-repeat center center;*/
+/*}*/
+
+
+
+
+/* Mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
     .parallax {

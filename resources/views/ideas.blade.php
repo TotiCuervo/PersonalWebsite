@@ -220,6 +220,28 @@
 {{--</section>--}}
 
 
+{{--<section id="personal1" class="container-fluid">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-12 section-parallax paralsec-stjude pl-auto">--}}
+{{--<div class="row">--}}
+{{--<div class="col-md-6 offset-6">--}}
+{{--<div class="card">--}}
+{{--<div class="card-body">--}}
+{{--My younger brother was diagnosed with Leukemia when I was two years old. We moved from Caracas, Venezuela to go--}}
+{{--recieve treatment at St. Jude Children's Research Hospital. St. Jude is hospital where no child no child is denied treatment based on race, religion or a family's ability to pay.--}}
+{{--<br><br>--}}
+{{--The hospital gave my brother a second chance of life, so I was extremely blessed to serve as the Executive Director of Up 'til Dawn,--}}
+{{--a student organization that raises money for St. Jude. With over a thousand participants in our annual Finale event, we raised--}}
+{{--$155,813 for St. Jude!--}}
+
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</div>--}}
+{{--</section>--}}
+
 <section id="passions">
     <div class="container-fluid text-center">
         <div class="row">

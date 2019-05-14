@@ -47,6 +47,121 @@
     </div>
 </section>
 
+<section id="recent-work" class="container">
+    <div class="pad-20 text-center">
+        <h2>Some of my recent work</h2>
+        <span class="text-muted"><i>Click to find out more</i></span>
+    </div>
+
+    <div class="row pad-20">
+        <div class="col-md-12 text-center">
+            <a href="" data-toggle="modal" data-target=".bd-example-modal-xl"><h5>StudyUp: I founded an online platform that helps students take notes online</h5></a>
+
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row pad-20">
+                                    <div class="col-md-12">
+                                        <h1>StudyUp</h1>
+                                        <p><b>Role:</b> Web developer, Co-Founder, Brand Developer</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+
+                                                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                                                        <video controls class="embed-responsive-item">
+                                                            <source src="/images/studyUp/studyupVid.mp4" type="video/mp4">
+                                                        </video>
+                                                    </div>
+
+                                                    {{--<div class="embed-responsive embed-responsive-16by9">--}}
+                                                        {{--<iframe class="embed-responsive-item" src="/images/studyUp/studyupVid.mp4" allowfullscreen></iframe>--}}
+                                                    {{--</div>--}}
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/images/studyUp/mockups.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="/images/studyUp/bigStudy.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="text-left">
+                                            <b>What it does:</b>
+                                            <br>
+                                            StudyUp is an online platform that allows students to collaboratively take notes together in real time.
+                                            Students can create Classrooms where they can add their classmates. In these classrooms they can make any number
+                                            of Notebooks that they would like. In these Notebooks students can take notes using our custom editor. Each Classroom
+                                            has a Chat where classmates can talk with each other.
+                                            <br>
+                                        </p>
+                                        <p class="text-left">
+                                            <b>How it was made:</b>
+                                            <br>
+                                            The entire project is made in the Laravel PHP framework using basic HTML and CSS for the front-end. The elements were customized to fit our needs while taking advantage of the Bootstrap toolkit to make the basic layout.
+                                            Creating a single page web application was fundamental to this project in order to give students a "real-time" experience. To do this, we used the powerful
+                                            VueJS framework to complete our most important components of Classroom, Notebook, Chat, and Note-Taking.
+                                        </p>
+                                        <p class="text-left">
+                                            <b>Components:</b>
+                                            <br>
+                                        </p>
+                                        <ul id="menu" class="text-left">
+                                            <li class="pr-10">HTML</li>
+                                            <li class="pr-10">CSS</li>
+                                            <li class="pr-10">JavaScript</li>
+                                            <li class="pr-10">PHP</li>
+                                            <li class="pr-10">Laravel</li>
+                                            <li class="pr-10">VueJS</li>
+                                            <li class="pr-10">MYSQL</li>
+                                            <li class="pr-10">Bootstrap</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <h5>Huru: A project I worked on that let's you talk to any Alexa-enabled device about your health</h5>
+            <br>
+            <h5>I led an organization that raised $155,813 for St. Jude Children's Research Hospital in 11 months </h5>
+        </div>
+    </div>
+
+    <div class="row pad-20">
+        <div class="col-md-12 text-center">
+            <p>
+                <b>What's up next:</b> Figuring out how to bring eCommerce to Virtual Reality, work on my startup to help students, and learning React
+            </p>
+        </div>
+    </div>
+
+</section>
+
 <section id="education">
     <div class="container">
         <div class="row education-info">
@@ -93,28 +208,6 @@
         </div>
     </div>
 </section>
-
-{{--<section id="personal1" class="container-fluid">--}}
-    {{--<div class="row">--}}
-        {{--<div class="col-md-12 section-parallax paralsec-stjude pl-auto">--}}
-            {{--<div class="row">--}}
-                {{--<div class="col-md-6 offset-6">--}}
-                    {{--<div class="card">--}}
-                        {{--<div class="card-body">--}}
-                            {{--My younger brother was diagnosed with Leukemia when I was two years old. We moved from Caracas, Venezuela to go--}}
-                            {{--recieve treatment at St. Jude Children's Research Hospital. St. Jude is hospital where no child no child is denied treatment based on race, religion or a family's ability to pay.--}}
-                            {{--<br><br>--}}
-                            {{--The hospital gave my brother a second chance of life, so I was extremely blessed to serve as the Executive Director of Up 'til Dawn,--}}
-                            {{--a student organization that raises money for St. Jude. With over a thousand participants in our annual Finale event, we raised--}}
-                            {{--$155,813 for St. Jude!--}}
-
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
 
 <section id="resume">
 
@@ -199,7 +292,7 @@
     </div>
 
     <div class="container">
-        <h2 class="pad-20 text-center">Other Experiences</h2>
+        <h2 class="pad-20 text-center">What else I've done do far</h2>
         <div class="experience-wrapper">
             <div class="row pb-50">
                 <div class="col-md-5 text-center">
@@ -258,27 +351,6 @@
     </div>
 
 </section>
-
-{{--<section id="personal2" class="container-fluid">--}}
-    {{--<div class="row">--}}
-        {{--<div class="col-md-12 section-parallax paralsec-stjude pl-auto">--}}
-            {{--<div class="col-md-6 mt-100 float-left">--}}
-                {{--<div class="card">--}}
-                    {{--<div class="card-body">--}}
-                        {{--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-                        {{--incididunt ut labore et--}}
-                        {{--dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
-                        {{--laboris nisi ut aliquip ex--}}
-                        {{--ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse--}}
-                        {{--cillum dolore eu fugiat--}}
-                        {{--nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui--}}
-                        {{--officia deserunt mollit--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
 
 <section id="abilities">
     <div class="container container-wrapper">
@@ -679,136 +751,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{--<section id="awards">--}}
-    {{--<div class="container text-center">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-12">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-md-3">--}}
-                        {{--<div class="card passion-card shadow">--}}
-                            {{--<div class="card-body passion-card-body">--}}
-                                {{--<h3>Awards</h3>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row pad-row">--}}
-            {{--<div class="col-md-3 pb-20">--}}
-                {{--<a href="http://neverstop.co/winners-announced-from-pre-seed-pitch-competition-2/"--}}
-                   {{--style="text-decoration: none; color:inherit;" target="_blank">--}}
-                    {{--<div class="card award-card shadow">--}}
-                        {{--<img src="/images/startco.png" class="card-img-top award-img img-fluid" alt="...">--}}
-                        {{--<div class="card-body">--}}
-                            {{--<h6><b>Start Co Pre-Seed Competition Winner</b></h6>--}}
-                            {{--<p class="card-text">StartCo, 2017</p>--}}
-
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-3 pb-20">--}}
-                {{--<a href="https://cc.lambdachi.org/wp-content/uploads/2019/01/FINAL-InDesign-File-Jan-CC.pdf"--}}
-                   {{--style="text-decoration: none; color:inherit;" target="_blank">--}}
-                    {{--<div class="card award-card shadow">--}}
-                        {{--<img src="/images/CC.png" class="card-img-top award-img img-fluid" alt="...">--}}
-                        {{--<div class="card-body">--}}
-                            {{--<h6><b>Doing The Impossible</b></h6>--}}
-                            {{--<p class="card-text">Cross & Crescent Magazine, 2019 </p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-3 pb-20">--}}
-                {{--<a href="https://www.youtube.com/watch?v=VuM9Tj96hXE" style="text-decoration: none; color:inherit;"--}}
-                   {{--target="_blank">--}}
-                    {{--<div class="card award-card shadow">--}}
-                        {{--<img src="/images/lcaMade.png" class="card-img-top award-img" alt="...">--}}
-                        {{--<div class="card-body">--}}
-                            {{--<h6><b>LCA Made</b></h6>--}}
-                            {{--<p class="card-text">Lambda Chi Alpha, 2019</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-3 pb-20">--}}
-                {{--<div class="card award-card shadow">--}}
-                    {{--<div class="card-title award-title"><h3>Other Awards</h3></div>--}}
-                    {{--<div class="card-body pt-0">--}}
-                        {{--<p class="card-text">--}}
-                            {{--<b>Best Overall Presentation</b>--}}
-                            {{--<br>--}}
-                            {{--<small class="d-sm-none d-md-block">AutoZone ToastMasters, 2018</small>--}}
-                        {{--</p>--}}
-                        {{--<br>--}}
-                        {{--<p class="card-text">--}}
-                            {{--<b>2nd Place & People’s Choice</b>--}}
-                            {{--<br>--}}
-                            {{--<small class="d-sm-none d-md-block">Fast Pitch Competition, 2018</small>--}}
-                        {{--</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
-
-
-
-{{--<section id="gallery">--}}
-{{--<div class="container-fluid nopad-lr">--}}
-{{--<div class="row">--}}
-{{--<div class="col-md-12 text-center">--}}
-{{--<h3>I also give </h3>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--<div class="row">--}}
-{{--<div class="col-md-3 nopad-lr">--}}
-{{--<div class="embed-responsive embed-responsive-16by9">--}}
-{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/B5j1u73asiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--<div class="col-md-3 nopad-lr">--}}
-{{--<div class="embed-responsive embed-responsive-16by9">--}}
-{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/mGKb55Au82s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
-{{--</div>--}}
-{{--<div class="col-md-3 nopad-lr">--}}
-{{--<div class="embed-responsive embed-responsive-16by9">--}}
-{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/nhUFCJCZcJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
-{{--</div>--}}
-{{--<div class="col-md-3 nopad-lr">--}}
-{{--<div class="embed-responsive embed-responsive-16by9">--}}
-{{--<iframe width="560" height="315" src="https://www.youtube.com/embed/d15x7L_K1-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                </div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-
-{{--</section>--}}
-
-
-
-
-
-
-
-
-
 
 
 </body>
