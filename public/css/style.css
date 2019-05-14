@@ -62,10 +62,7 @@
 
 /*Parralax effect*/
 .paralsec {
-    /*background-image: url("/images/personal.jpg");*/
-    /*background: linear-gradient(*/
-            /*rgba(20,20,20, .5),*/
-            /*rgba(20,20,20, .5));*/
+    /*background-color: black;*/
 
     background: linear-gradient(
             rgba(20,20,20, .5),
@@ -534,15 +531,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-                /*rgba(20,20,20, .5),*/
-                /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -562,15 +552,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -590,15 +573,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -618,15 +594,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -646,15 +615,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -674,17 +636,9 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
-
 
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
@@ -703,15 +657,8 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
     }
 
 }
@@ -731,15 +678,8 @@ section#abilities {
     }
 
     .paralsec {
-        /*background-image: url("/images/personal.jpg");*/
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5));*/
+        background-color: black;
 
-        background: linear-gradient(
-                rgba(20,20,20, .5),
-                rgba(20,20,20, .5)),
-        url("/images/mobileCover.jpg");
     }
 
 }
