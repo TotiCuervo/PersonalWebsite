@@ -529,9 +529,8 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
-
 
     .paralsec {
         /*background-image: url("/images/personal.jpg");*/
@@ -557,7 +556,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -584,7 +583,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -611,7 +610,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -638,7 +637,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -665,7 +664,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -680,6 +679,7 @@ section#abilities {
         url("/images/crewsLogo.jpg");
     }
 
+
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
 
@@ -692,7 +692,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
@@ -719,7 +719,7 @@ section#abilities {
         /*background-attachment: fixed;*/
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain ;
     }
 
     .paralsec {
