@@ -519,6 +519,7 @@ section#abilities {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+
     .parallax {
 
         /* Full height */
@@ -530,8 +531,23 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
     .parallax {
 
         /* Full height */
@@ -543,8 +559,22 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
     .parallax {
 
         /* Full height */
@@ -556,8 +586,22 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
     .parallax {
 
         /* Full height */
@@ -569,11 +613,26 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
     .parallax {
 
         /* Full height */
+        /*height: 100vh;*/
 
         /* Create the parallax scrolling effect */
         /*background-attachment: fixed;*/
@@ -581,8 +640,22 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
     .parallax {
 
         /* Full height */
@@ -594,8 +667,22 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
     .parallax {
 
         /* Full height */
@@ -607,8 +694,22 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
     .parallax {
 
         /* Full height */
@@ -620,4 +721,17 @@ section#abilities {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .paralsec {
+        /*background-image: url("/images/personal.jpg");*/
+        /*background: linear-gradient(*/
+        /*rgba(20,20,20, .5),*/
+        /*rgba(20,20,20, .5));*/
+
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/crewsLogo.jpg");
+    }
+
 }
