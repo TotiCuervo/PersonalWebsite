@@ -62,7 +62,15 @@
 
 /*Parralax effect*/
 .paralsec {
-    background-image: url("/images/pic1.jpg");
+    /*background-image: url("/images/personal.jpg");*/
+    /*background: linear-gradient(*/
+            /*rgba(20,20,20, .5),*/
+            /*rgba(20,20,20, .5));*/
+
+    background: linear-gradient(
+            rgba(20,20,20, .5),
+            rgba(20,20,20, .5)),
+            url("/images/personal.jpg");
 }
 
 .paralsec1 {
@@ -171,6 +179,7 @@ section#awards {
 }
 
 .scale-card {
+
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 
     -webkit-transition: all 0.3s ease-in-out;
@@ -227,8 +236,7 @@ section#awards {
 /*End of Award*/
 
 
-
-/*miscellaneous*/
+/*Miscellaneous*/
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -284,6 +292,9 @@ section#awards {
     padding: 20px;
 }
 
+.pad-50 {
+    padding: 50px;
+}
 
 .mb-0 {
     margin-bottom:0;
@@ -291,6 +302,10 @@ section#awards {
 
 .mt-100 {
     margin-top: 100px;
+}
+
+.mt-70 {
+    margin-top: 70px;
 }
 
 .mt-10 {
@@ -309,6 +324,10 @@ section#awards {
 .mg-50-10 {
     margin-top: 50px;
     margin-bottom: 10px;
+}
+
+.mg-50 {
+    margin: 50px;
 }
 
 .w-230 {
@@ -352,11 +371,19 @@ section#awards {
 
 /*End of miscellaneous*/
 
+.img-cover {
+    object-fit: fill;
+}
 
+body {
+    font-family: verdana, Sans-Serif;
+}
 /*Cards*/
 
 .intro-card {
     margin-top:100px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .img-wrapper {
@@ -387,6 +414,7 @@ section#education {
 .degree-wrapper {
     padding-bottom: 20px;
 }
+
 .education-card {
     width: 282.5px;
     height: 282.5px;
@@ -413,7 +441,10 @@ section#education {
 }
 /*End of Education Section*/
 
-
+.center-card {
+    display:block;
+    margin:auto;
+}
 
 /*Skills Section*/
 section#abilities {
@@ -425,53 +456,81 @@ section#abilities {
 
 
 
-/*Chips*/
+/*photo gallery*/
 
-.chip {
-    display: inline-block;
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
 
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .3s linear;
+}
 
-;
-    /*padding: 0 150px;*/
-    height: 150px;
-    font-size: 16px;
-    line-height: 50px;
-    border-radius: 50px;
-    background-color: #ffffff;
-    border: 1px solid rgba(0,0,0,.125);
+.hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.gallery-img {
+    height: 237.5px;
+    width: 237.5px;
+    display:block;
+    margin:auto;
+}
+
+.gallery-modal-img {
+    background-size: 100% 100%;
+    /*height: 100%;*/
+    max-height: none;
+    max-width: none;
     width: 100%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-.chip:hover {
-    cursor: pointer;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
-
-}
-
-.chip-img {
-    float: left;
-    /*margin: 0 10px 0 -150px;*/
-    height: 148px;
-    width: 150px;
-    border-radius: 25%;
-
-}
-
-.chip-body{
-    flex: 1 1 auto;
-    /*padding: 1.25rem;*/
-    padding: 3.0rem 1rem;
+.gallery-img-wrapper {
+    border: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
 }
 
 
-/*Passion Section*/
-.passion-card {
-    margin: 20px;
-    width:20rem;
-    transform: skewX(-30deg);
+ /*Cover*/
+
+.cover {
+    top: 40%;
+    position: relative;
 }
 
-.passion-card-body {
-    transform: skewX(30deg)
+.big-text {
+    font-size:70px;
+    font-family: "brandon grotesque", brandon, helvetica, sans-serif;
 }
+
+ /*Header line*/
+
+/*h1 {*/
+    /*display: grid;*/
+    /*grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*grid-gap: 20px;*/
+    /*width: 100%;*/
+/*}*/
+
+/*h1:before,*/
+/*h1:after {*/
+    /*content: '';*/
+    /*border-top: 2px solid;*/
+/*}*/

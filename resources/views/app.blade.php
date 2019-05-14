@@ -31,48 +31,17 @@
         {{--<h1>Hello</h1>--}}
         {{--</div>--}}
         <div class="col-md-12 p-0">
-            <div class="jumbotron parallax paralsec1 m-0">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card intro-card text-center">
-                            <div class="card-body">
-                                <h1>Welcome to my website</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex
-                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit</p>
-                            </div>
-                            <div class="connect">
-                                <div class="card-body">
-                                    <div class="row connect-buttons">
-                                        <div class="col-md-12" align="center">
-                                            <a href="https://www.linkedin.com/in/toti-cuervo-zt1314/" target="_blank">
-                                                <i class="fab fa-linkedin fa-2x"></i>
-                                            </a>
-                                            <a href="" target="_blank">
-                                                <i class="fab fa-github-square fa-2x"></i>
-                                            </a>
-                                            <a href="" target="_blank">
-                                                <i class="fab fa-instagram fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12" align="center">
-                                            <button type="button" class="btn btn-primary btn-lg btn-circle">Let's
-                                                Connect
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="jumbotron parallax paralsec m-0">
+               <div class="container cover">
+                   <div class="row">
+                       <div class="col-md-12 text-center">
+                           <h3 style="color:white;"><i>Hey there! Im</i></h3>
+                           <div class="big-text" style="color:white;">
+                                Toti Cuervo
+                           </div>
+                       </div>
+                   </div>
+               </div>
             </div>
         </div>
     </div>
@@ -87,8 +56,8 @@
         <div class="row education-info">
             <div class="col-md-7">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="card education-card scale-card">
+                    <div class="col-md-6 pb-20">
+                        <div class="card education-card scale-card center-card">
                             <div class="degree-wrapper">
                                 <div class="card-img-wrapper text-center">
                                     <img class="img-fluid card-img" src="/images/memphis.png">
@@ -100,8 +69,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card education-card scale-card">
+                    <div class="col-md-6 pb-20">
+                        <div class="card education-card scale-card center-card">
                             <div class="degree-wrapper">
                                 <div class="card-img-wrapper text-center">
                                     <img class="img-fluid card-img" src="/images/memphis.png">
@@ -118,110 +87,116 @@
             </div>
             <div class="col-md-5">
                 <h3>My Education</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit</p>
+                <p>
+                    I decided that I wanted to pursue two different degrees to fufill one major passion of mine: innovation.
+                    I wanted to have the ability to create as well as lead. These two concentrations has allowed me to bridge the divide
+                    betweeen the technical and the managerial worlds.
+
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="personal1" class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 section-parallax paralsec-stjude pl-auto">
-            <div class="col-md-6 mt-100 float-right">
-                <div class="card">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section id="personal1" class="container-fluid">--}}
+    {{--<div class="row">--}}
+        {{--<div class="col-md-12 section-parallax paralsec-stjude pl-auto">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-md-6 offset-6">--}}
+                    {{--<div class="card">--}}
+                        {{--<div class="card-body">--}}
+                            {{--My younger brother was diagnosed with Leukemia when I was two years old. We moved from Caracas, Venezuela to go--}}
+                            {{--recieve treatment at St. Jude Children's Research Hospital. St. Jude is hospital where no child no child is denied treatment based on race, religion or a family's ability to pay.--}}
+                            {{--<br><br>--}}
+                            {{--The hospital gave my brother a second chance of life, so I was extremely blessed to serve as the Executive Director of Up 'til Dawn,--}}
+                            {{--a student organization that raises money for St. Jude. With over a thousand participants in our annual Finale event, we raised--}}
+                            {{--$155,813 for St. Jude!--}}
+
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 <section id="resume">
 
     <div class="container">
-        <h2 class="text-center pt-30">Big Three Experiences</h2>
+        <h1 class="text-center pt-30">Big Three Experiences</h1>
         <div class="row">
 
             <div class="col-md-4 text-center pad-20">
-                <div class="experience-card">
-                    <div class="big3-header">
-                        <img class="img-fluid img-exp" src="/images/studyupLogo.png">
-                        <h5 class="mb-0">Co-Founder</h5>
-                        <small>Study Up</small>
-                    </div>
-                    <div class="big3-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex</p>
-                        <div class="big3-footer">
-                            <small class="big3-footer-text">
-                                Learn More
-                                <i class="fas fa-arrow-right fa-1x pl-2"></i>
-                            </small>
+                <a href="https://studyupapp.com/" style="text-decoration: none; color:inherit;" target="_blank">
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp" src="/images/studyupLogo.png">
+                            <h5 class="mb-0">Co-Founder</h5>
+                            <small>Study Up</small>
+                        </div>
+                        <div class="big3-body">
+                            <p>
+                                I founded StudyUp after I had to study for a 10 question test that had more than 100 hundred questions
+                                on the study guide. It is an online platform where students can collaboratively take notes together in real time.
+                            </p>
+                            <div class="big3-footer">
+                                <small class="big3-footer-text">
+                                    Learn More
+                                    <i class="fas fa-arrow-right fa-1x pl-2"></i>
+                                </small>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4 text-center pad-20">
-                <div class="experience-card">
-                    <div class="big3-header">
-                        <img class="img-fluid img-exp w-230 h-auto" src="/images/autozone.jpg">
-                        <h5 class="mb-0">eCommerce Intern</h5>
-                        <small>AutoZone</small>
-                    </div>
-                    <div class="big3-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex</p>
-                        <div class="big3-footer">
-                            <small class="big3-footer-text">
-                                Learn More
-                                <i class="fas fa-arrow-right fa-1x pl-2"></i>
-                            </small>
+                <a href="https://www.autozone.com/" style="text-decoration: none; color:inherit;" target="_blank">
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp w-230 h-auto" src="/images/autozone.jpg">
+                            <h5 class="mb-0">eCommerce Intern</h5>
+                            <small>AutoZone</small>
+                        </div>
+                        <div class="big3-body">
+                            <p>
+                                I have done a wide variety of things during my internship at AutoZone.
+                                From working on website design to catching fraudsters, I got to practice the Agile Methodology on a wide variety of projects.
+                                I even developed a Virtual Reality store in Unity!
+                            </p>
+                            <div class="big3-footer">
+                                <small class="big3-footer-text">
+                                    Learn More
+                                    <i class="fas fa-arrow-right fa-1x pl-2"></i>
+                                </small>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-4 text-center pad-20">
-                <div class="experience-card">
-                    <div class="big3-header">
-                        <img class="img-fluid img-exp w-230 h-auto pt-55" src="/images/utdLogo.png">
-                        <h5 class="mb-0">Executive Director</h5>
-                        <small>St.Jude Up 'til Dawn</small>
-                    </div>
-                    <div class="big3-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex</p>
-                        <div class="big3-footer">
-                            <small class="big3-footer-text">
-                                Learn More
-                                <i class="fas fa-arrow-right fa-1x pl-2"></i>
-                            </small>
+                <a href="https://www.stjude.org/" style="text-decoration: none; color:inherit;" target="_blank">
+                    <div class="experience-card">
+                        <div class="big3-header">
+                            <img class="img-fluid img-exp w-230 h-auto pt-55" src="/images/utdLogo.png">
+                            <h5 class="mb-0">Executive Director</h5>
+                            <small>St.Jude Up 'til Dawn</small>
+                        </div>
+                        <div class="big3-body">
+                            <p>
+                                Up 'til Dawn is a student organization thar raises money for St. Jude Children's Research Hospital. As the Executive Director I led
+                                the orgnization in raising $155,813 for the kids of St. jude!
+                            </p>
+                            <div class="big3-footer">
+                                <small class="big3-footer-text">
+                                    Learn More
+                                    <i class="fas fa-arrow-right fa-1x pl-2"></i>
+                                </small>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>
@@ -242,7 +217,10 @@
                     <a href="https://www.soli.life/"><h5>Marketing Intern</h5></a>
                     <h6>Ultimate Foods<i>, now named Soli.life</i></h6>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        Ultimate Foods sells healthy food on the go. Customers can purchase premade meal that can be heated in any ordinary microwave.
+                        I joined the business when it was fairly young and was able to create
+                        and implement various social media campaigns while also helping them forecast potential revenue.
+                    </p>
                     </p>
                 </div>
             </div>
@@ -254,8 +232,9 @@
                     <a href="http://www.imagineuaccelerator.com/about.html"><h5>Imagine U Accelerator</h5></a>
                     <h6>Ultimate Foods</h6>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    </p>
+                        the Imagine U program is an entrepreneural accelerator at the Crew's Center For Entrepreneurship at the University of Memphis.
+                        It consists of a summer long venture where you learn the ins and outs of starting a business. This program taught me the core fundamentals of
+                        entrepreneurship and launched my interest in starting my own business.
                 </div>
             </div>
             <div class="row pb-50">
@@ -266,43 +245,48 @@
                     <a href="https://www.memphis.edu/crews/programs/cceresidency.php"><h5>Entrepreneur Fellowship</h5></a>
                     <h6>Crew's Center For Entrepreneurship</h6>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        The fellowship is a hands-on mentorship that provides startup capital and resources to entrepreneurs that are interested
+                        in starting a business.
+                        During my time I created two different platforms
+                        while also networking with potential partners and customers.
+
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="experience-CTA pb-50">
-                        <h1 class="text-muted">
-                            ...And Lots More. Download my Resume <a href="/files/TotiCuervoResume.pdf" target="_blank">Here</a>
-                        </h1>
+                        <h2 class="text-muted">
+                            ...And Lots More. Download My Resume <a href="/files/TotiCuervoResume.pdf" target="_blank">Here</a>
+                        </h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </section>
 
-<section id="personal2" class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 section-parallax paralsec-stjude pl-auto">
-            <div class="col-md-6 mt-100 float-left">
-                <div class="card">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section id="personal2" class="container-fluid">--}}
+    {{--<div class="row">--}}
+        {{--<div class="col-md-12 section-parallax paralsec-stjude pl-auto">--}}
+            {{--<div class="col-md-6 mt-100 float-left">--}}
+                {{--<div class="card">--}}
+                    {{--<div class="card-body">--}}
+                        {{--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                        {{--incididunt ut labore et--}}
+                        {{--dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco--}}
+                        {{--laboris nisi ut aliquip ex--}}
+                        {{--ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse--}}
+                        {{--cillum dolore eu fugiat--}}
+                        {{--nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui--}}
+                        {{--officia deserunt mollit--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 <section id="abilities">
     <div class="container container-wrapper">
@@ -402,9 +386,8 @@
 
 <section id="awards">
     <div class="container text-center">
-
+        <h2 class="text-center pad-20"><i><b>A LITTLE RECOGNITION</b></i></h2>
         <div class="row">
-
             <div class="col-md-4 text-center pad-20">
                 <a href="http://neverstop.co/winners-announced-from-pre-seed-pitch-competition-2/"
                    style="text-decoration: none; color:inherit;" target="_blank">
@@ -479,7 +462,231 @@
     </div>
 </section>
 
+<section id="picture-gallery">
+    <div class="container-fluid">
+        <div class="row">
 
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal3">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery1.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal2">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery6.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery6.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal3">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery2.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal4">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery3.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal5">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery4.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal6">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery7.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery7.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal7">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery8.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery8.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal8">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery9.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery9.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal9">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery10.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery10.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal10">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery11.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery11.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal11">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery12.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery12.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 nopad-lr">
+                <a data-toggle="modal" data-target="#exampleModal12">
+                    <div class="hovereffect">
+                        <img class="img-fluid gallery-img" src="/images/gallery/gallery5.jpg">
+                    </div>
+                </a>
+
+                <div class="modal fade bd-example-modal-xl" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <img class="gallery-modal-img" src="/images/gallery/gallery5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cta">
+    <div class="container">
+        <div class="row pt-55">
+            <div class="col-md-12 text-center">
+                <h1 class="text-center">Let's Get In Touch!</h1>
+                <p> My email works best: <a href="mailto: totifercuervo@gmail.com" >TotiferCuervo@gmail.com</a>
+                    <br>You can also check me out on Github and LinkedIn
+                    <br>Download My Resume <a href="/files/TotiCuervoResume.pdf" target="_blank">Here</a>
+                </p>
+            </div>
+        </div>
+        <div class="row pb-50">
+            <div class="col-md-12 text-center">
+                <a href="" target="_blank">
+                    <i class="fab fa-github-square fa-7x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/toti-cuervo-zt1314/" target="_blank">
+                    <i class="fab fa-linkedin fa-7x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
