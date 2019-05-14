@@ -49,7 +49,7 @@
 
 <section id="recent-work" class="container">
     <div class="pt-50 text-center">
-        <h2>Some of my recent work</h2>
+        <h2><b>Some of my recent work</b></h2>
         <span class="text-muted"><i>Click to find out more</i></span>
     </div>
 
@@ -344,7 +344,7 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <h3>My Education</h3>
+                <h3><b>My Education</b></h3>
                 <p>
                     I decided that I wanted to pursue two different degrees to fufill one major passion of mine: innovation.
                     I wanted to have the ability to create as well as lead. These two concentrations has allowed me to bridge the divide
@@ -359,7 +359,7 @@
 <section id="resume">
 
     <div class="container">
-        <h1 class="text-center pt-30">Big Three Experiences</h1>
+        <h1 class="text-center pt-30"><b>My biggest experiences</b></h1>
         <div class="row">
 
             <div class="col-md-4 text-center pad-20">
@@ -439,7 +439,7 @@
     </div>
 
     <div class="container">
-        <h2 class="pad-20 text-center">What else I've done do far</h2>
+        <h2 class="pad-20 text-center"><b>What else I've done do far</b></h2>
         <div class="experience-wrapper">
             <div class="row pb-50">
                 <div class="col-md-5 text-center">
@@ -597,7 +597,7 @@
 
 <section id="awards">
     <div class="container text-center">
-        <h2 class="text-center pad-20"><i><b>A LITTLE RECOGNITION</b></i></h2>
+        <h2 class="text-center pad-20"><b>Some recognition I've recieved</b></h2>
         <div class="row">
             <div class="col-md-4 text-center pad-20">
                 <a href="http://neverstop.co/winners-announced-from-pre-seed-pitch-competition-2/"
@@ -879,7 +879,7 @@
     <div class="container">
         <div class="row pt-55">
             <div class="col-md-12 text-center">
-                <h1 class="text-center">Let's Get In Touch!</h1>
+                <h1 class="text-center"><b>Let's Get In Touch!</b></h1>
                 <p> My email works best: <a href="mailto: totifercuervo@gmail.com" >TotiferCuervo@gmail.com</a>
                     <br>You can also check me out on Github and LinkedIn
                     <br>Download My Resume <a href="/files/TotiCuervoResume.pdf" target="_blank">Here</a>
