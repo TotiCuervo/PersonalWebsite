@@ -416,8 +416,8 @@ section#education {
 }
 
 .education-card {
-    width: 282.5px;
-    height: 282.5px;
+    /*width: 282.5px;*/
+    /*height: 282.5px;*/
     margin-right: 70px;
     border-radius: 10px;
 }
@@ -731,15 +731,15 @@ section#abilities {
     }
 
     .paralsec {
-        background-image: url("/images/mobileCover.jpg");
+        /*background-image: url("/images/personal.jpg");*/
         /*background: linear-gradient(*/
         /*rgba(20,20,20, .5),*/
         /*rgba(20,20,20, .5));*/
 
-        /*background: linear-gradient(*/
-        /*rgba(20,20,20, .5),*/
-        /*rgba(20,20,20, .5)),*/
-        /*url("/images/mobileCover.jpg");*/
+        background: linear-gradient(
+                rgba(20,20,20, .5),
+                rgba(20,20,20, .5)),
+        url("/images/mobileCover.jpg");
     }
 
 }

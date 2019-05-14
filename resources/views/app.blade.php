@@ -49,10 +49,6 @@
 
 <section id="education">
     <div class="container">
-        {{--<div class="education-header-wrapper">--}}
-        {{--<h1 class="text-center">Education</h1>--}}
-        {{--<hr>--}}
-        {{--</div>--}}
         <div class="row education-info">
             <div class="col-md-7">
                 <div class="row">
@@ -203,12 +199,8 @@
     </div>
 
     <div class="container">
+        <h2 class="pad-20 text-center">Other Experiences</h2>
         <div class="experience-wrapper">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="pad-20">Other Experiences</h2>
-                </div>
-            </div>
             <div class="row pb-50">
                 <div class="col-md-5 text-center">
                     <img class="img-fluid img-wrapper " style="width: 200px;" src="/images/ultimateFoods.png">
