@@ -518,19 +518,107 @@ section#abilities {
     font-family: "brandon grotesque", brandon, helvetica, sans-serif;
 }
 
- /*Header line*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .parallax {
 
-/*h1 {*/
-    /*display: grid;*/
-    /*grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*grid-gap: 20px;*/
-    /*width: 100%;*/
-/*}*/
+        /* Full height */
+        height: 100vh;
 
-/*h1:before,*/
-/*h1:after {*/
-    /*content: '';*/
-    /*border-top: 2px solid;*/
-/*}*/
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+    .parallax {
+
+        /* Full height */
+        height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
