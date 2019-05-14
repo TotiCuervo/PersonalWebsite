@@ -48,15 +48,15 @@
 </section>
 
 <section id="recent-work" class="container">
-    <div class="pad-20 text-center">
+    <div class="pt-50 text-center">
         <h2>Some of my recent work</h2>
         <span class="text-muted"><i>Click to find out more</i></span>
     </div>
 
-    <div class="row pad-20">
+    <div class="row pb-20 pt-50 ">
         <div class="col-md-12 text-center">
-            <a href="" data-toggle="modal" data-target=".bd-example-modal-xl"><h5>StudyUp: I founded an online platform that helps students take notes online</h5></a>
 
+            <a href="" data-toggle="modal" data-target=".bd-example-modal-xl"><h5>StudyUp: I founded an online platform that helps students take notes online</h5></a>
             <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -64,8 +64,12 @@
                             <div class="container-fluid">
                                 <div class="row pad-20">
                                     <div class="col-md-12">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
                                         <h1>StudyUp</h1>
                                         <p><b>Role:</b> Web developer, Co-Founder, Brand Developer</p>
+                                        <a href="https://studyupapp.com/"><p>StudyUpApp.com</p></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -78,17 +82,11 @@
                                             </ol>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-
                                                     <div align="center" class="embed-responsive embed-responsive-16by9">
                                                         <video controls class="embed-responsive-item">
                                                             <source src="/images/studyUp/studyupVid.mp4" type="video/mp4">
                                                         </video>
                                                     </div>
-
-                                                    {{--<div class="embed-responsive embed-responsive-16by9">--}}
-                                                        {{--<iframe class="embed-responsive-item" src="/images/studyUp/studyupVid.mp4" allowfullscreen></iframe>--}}
-                                                    {{--</div>--}}
-
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img src="/images/studyUp/mockups.jpg" class="d-block w-100" alt="...">
@@ -144,11 +142,160 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
             <br>
-            <h5>Huru: A project I worked on that let's you talk to any Alexa-enabled device about your health</h5>
+
+            <a href="" data-toggle="modal" data-target="#modal-2"><h5>Huru: A project I worked on that let's you talk to any Alexa-enabled device about your health</h5></a>
+            <div class="modal fade bd-example-modal-xl" id="modal-2"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row pad-20">
+                                    <div class="col-md-12">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h2>Huru</h2>
+                                        <p><b>Role:</b> Web developer, Brand Designer, Consultant </p>
+                                        <p>While the landing page is not live, you can view it on <a href="huru">here.</a></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/huruMock.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p class="text-left">
+                                            <b>What it does:</b>
+                                            <br>
+                                            Huru is a IOS App that connects a user's Apple HealthKit to Amazon Alexa which allows the user to have a conversation with Alexa over their health information.
+                                            A user can ask things like "Alexa, how am I doing?" or "Alexa, how many steps have I taken today?" and Alexa will give up to date realtime information.
+                                            On top of all of this, Huru also enables Alexa to compare how you are doing to the national average.
+                                            <br>
+                                        </p>
+                                        <p class="text-left">
+                                            <b>How it was made:</b>
+                                            <br>
+                                            This project consists of two major components: the Alexa component and the IOS component. For the Alexa component we created scales (a fancy word for
+                                            verbal commands) that Alexa would listen out to. When one of these verbal commands gets triggered, a set of functions occur that retrieve the relevant information
+                                            and compiles it into a setence. On the IOS side the app is made using Swift. When a user opens the app they must grant permission for the app to use their health information
+                                            and bingo, connected!
+                                            <br>
+                                            AWS Lambda Server and DynamoDB is used to connect the two components. The DynamoDB is hosted on the Lambda Server. Tbe IOS app updates the DynamoDB with the health information
+                                            from HealthKit, and the Alexa pulls this information from DynamoDB for the verbal responses
+                                        </p>
+                                        <p class="text-left">
+                                            <b>My Role:</b>
+                                            I contributed to the architectural design of the project, working on IOS App component. I created the name, brand logo,
+                                            and the landing page for the app.
+                                            <br>
+                                        </p>
+                                        <p class="text-left">
+                                            <b>Components:</b>
+                                            <br>
+                                        </p>
+                                        <ul id="menu" class="text-left">
+                                            <li class="pr-10">HTML</li>
+                                            <li class="pr-10">Swift</li>
+                                            <li class="pr-10">AWS</li>
+                                            <li class="pr-10">Laravel</li>
+                                            <li class="pr-10">DynamoDB</li>
+                                            <li class="pr-10">Bootstrap</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br>
-            <h5>I led an organization that raised $155,813 for St. Jude Children's Research Hospital in 11 months </h5>
+
+            <a href="" data-toggle="modal" data-target="#modal-3"><h5>I led an organization that raised $155,813 for St. Jude Children's Research Hospital in 11 months </h5></a>
+            <div class="modal fade bd-example-modal-xl" id="modal-3"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row pad-20">
+                                    <div class="col-md-12">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h2>Up 'til Dawn</h2>
+                                        <p><b>Role:</b> Executive Director </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="row pb-20">
+                                            <div class="col-md-12">
+                                                <img src="/images/stjude/st.jude.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        {{--<div class="row">--}}
+                                            {{--<div class="col-md-12">--}}
+                                                {{--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">--}}
+                                                    {{--<ol class="carousel-indicators">--}}
+                                                        {{--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>--}}
+                                                        {{--<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>--}}
+                                                        {{--<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>--}}
+                                                    {{--</ol>--}}
+                                                    {{--<div class="carousel-inner">--}}
+                                                        {{--<div class="carousel-item active">--}}
+                                                            {{--<div align="center" class="embed-responsive embed-responsive-16by9">--}}
+                                                                {{--<video controls class="embed-responsive-item">--}}
+                                                                    {{--<source src="/images/studyUp/studyupVid.mp4" type="video/mp4">--}}
+                                                                {{--</video>--}}
+                                                            {{--</div>--}}
+                                                        {{--</div>--}}
+                                                        {{--<div class="carousel-item">--}}
+                                                            {{--<img src="/images/studyUp/mockups.jpg" class="d-block w-100" alt="...">--}}
+                                                        {{--</div>--}}
+                                                        {{--<div class="carousel-item">--}}
+                                                            {{--<img src="/images/studyUp/bigStudy.jpg" class="d-block w-100" alt="...">--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                    {{--<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">--}}
+                                                        {{--<span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
+                                                        {{--<span class="sr-only">Previous</span>--}}
+                                                    {{--</a>--}}
+                                                    {{--<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">--}}
+                                                        {{--<span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
+                                                        {{--<span class="sr-only">Next</span>--}}
+                                                    {{--</a>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <p class="text-left">
+                                            <b>What is Up 'til Dawn:</b>
+                                            <br>
+                                            Up 'til Dawn is a student organization that raises money for St. Jude Children's Research Hospital. Founded at the University of Memphis,
+                                            my chapter raises more than $100,000 for the kids of St. Jude. We do this by getting other students to fundraise through a personal fundraising page.
+                                            <br>
+                                        </p>
+                                        <p class="text-left">
+                                            <b>My role:</b>
+                                            <br>
+                                            As Executive Director, I acted as the liason between ALSAC, the fundraising branch of St. Jude, and the University of Memphis. I was given the task
+                                            of setting up the vision of the organization, recruiting the executive board, and ensuring the success of the program. At the end of my tenure the
+                                            organization raised $155,813!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
