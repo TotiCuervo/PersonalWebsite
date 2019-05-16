@@ -19,7 +19,9 @@
     <link href="plugins/slick/slick-theme.css" rel="stylesheet">
 
     <!-- CUSTOM CSS -->
-    <link href="css/huruStyle.css" rel="stylesheet">
+    <link href={{ secure_asset('css/huruStyle.css') }} rel="stylesheet">
+
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet" type="text/css">
 
     <!-- FAVICON -->
     <link href="images/huru/favicon.png" rel="shortcut icon">
