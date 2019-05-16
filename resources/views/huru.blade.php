@@ -482,7 +482,7 @@
                 <!-- Team Member -->
                 <div class="team-member text-center">
                     <div class="image">
-                        <img class="img-fluid" src="images/huru/team/Mykalia.png" alt="team-member">
+                        <img class="img-fluid" src="images/huru/team/mykalia.png" alt="team-member">
                     </div>
                     <div class="name">
                         <h5>Mykaila Johnson</h5>
@@ -538,7 +538,7 @@
                 <!-- Team Member -->
                 <div class="team-member text-center">
                     <div class="image">
-                        <img class="img-fluid" src="images/huru/team/Omar.png" alt="team-member">
+                        <img class="img-fluid" src="images/huru/team/omar.png" alt="team-member">
                     </div>
                     <div class="name">
                         <h5>Omar Alghamdi</h5>

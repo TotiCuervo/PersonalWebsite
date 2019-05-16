@@ -129,11 +129,11 @@
       <file leaf-file-name="huru.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/huru.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="420">
+              <caret line="547" column="26" lean-forward="true" selection-start-line="547" selection-start-column="26" selection-end-line="547" selection-end-column="26" />
               <folding>
-                <marker date="1558016961281" expanded="true" signature="706:741" ph="..." />
-                <marker date="1558016961281" expanded="true" signature="781:812" ph="..." />
+                <marker date="1558017128437" expanded="true" signature="706:741" ph="..." />
+                <marker date="1558017128437" expanded="true" signature="781:812" ph="..." />
               </folding>
             </state>
           </provider>
@@ -273,13 +273,23 @@
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalWebsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="huru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebsite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="huru" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="team" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PersonalWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -341,12 +351,12 @@
       <workItem from="1557433233656" duration="183000" />
       <workItem from="1557506914697" duration="26976000" />
       <workItem from="1557808961136" duration="14829000" />
-      <workItem from="1558016236756" duration="533000" />
+      <workItem from="1558016236756" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104326000" />
+    <option name="totallyTimeSpent" value="104473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -1251,11 +1261,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/huru.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="420">
+          <caret line="547" column="26" lean-forward="true" selection-start-line="547" selection-start-column="26" selection-end-line="547" selection-end-column="26" />
           <folding>
-            <marker date="1558016961281" expanded="true" signature="706:741" ph="..." />
-            <marker date="1558016961281" expanded="true" signature="781:812" ph="..." />
+            <marker date="1558017128437" expanded="true" signature="706:741" ph="..." />
+            <marker date="1558017128437" expanded="true" signature="781:812" ph="..." />
           </folding>
         </state>
       </provider>
