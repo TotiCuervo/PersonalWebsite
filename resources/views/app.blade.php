@@ -176,17 +176,17 @@
                                             On top of all of this, Huru also enables Alexa to compare how you are doing to the national average.
                                             <br>
                                         </p>
-                                        <p class="text-left">
-                                            <b>How it was made:</b>
-                                            <br>
-                                            This project consists of two major components: the Alexa component and the IOS component. For the Alexa component we created scales (a fancy word for
-                                            verbal commands) that Alexa would listen out to. When one of these verbal commands gets triggered, a set of functions occur that retrieve the relevant information
-                                            and compiles it into a setence. On the IOS side the app is made using Swift. When a user opens the app they must grant permission for the app to use their health information
-                                            and bingo, connected!
-                                            <br>
-                                            AWS Lambda Server and DynamoDB is used to connect the two components. The DynamoDB is hosted on the Lambda Server. Tbe IOS app updates the DynamoDB with the health information
-                                            from HealthKit, and the Alexa pulls this information from DynamoDB for the verbal responses
-                                        </p>
+                                        {{--<p class="text-left">--}}
+                                            {{--<b>How it was made:</b>--}}
+                                            {{--<br>--}}
+                                            {{--This project consists of two major components: the Alexa component and the IOS component. For the Alexa component we created scales (a fancy word for--}}
+                                            {{--verbal commands) that Alexa would listen out to. When one of these verbal commands gets triggered, a set of functions occur that retrieve the relevant information--}}
+                                            {{--and compiles it into a setence. On the IOS side the app is made using Swift. When a user opens the app they must grant permission for the app to use their health information--}}
+                                            {{--and bingo, connected!--}}
+                                            {{--<br>--}}
+                                            {{--AWS Lambda Server and DynamoDB is used to connect the two components. The DynamoDB is hosted on the Lambda Server. Tbe IOS app updates the DynamoDB with the health information--}}
+                                            {{--from HealthKit, and the Alexa pulls this information from DynamoDB for the verbal responses--}}
+                                        {{--</p>--}}
                                         <p class="text-left">
                                             <b>My Role:</b>
                                             I contributed to the architectural design of the project, working on IOS App component. I created the name, brand logo,
@@ -202,7 +202,6 @@
                                             <li class="pr-10">Swift</li>
                                             <li class="pr-10">AWS</li>
                                             <li class="pr-10">Laravel</li>
-                                            <li class="pr-10">DynamoDB</li>
                                             <li class="pr-10">Bootstrap</li>
                                         </ul>
                                     </div>
