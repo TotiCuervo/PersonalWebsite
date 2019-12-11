@@ -37,7 +37,7 @@
                        <div class="col-md-12 text-center">
                            <h3 style="color:white;"><i>Hey there! Im</i></h3>
                            <div class="big-text" style="color:white;">
-                                Toti Cuervo
+                                Toti Cuervo poopy butthole
                            </div>
                        </div>
                    </div>
