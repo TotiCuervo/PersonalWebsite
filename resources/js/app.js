@@ -1,33 +1,54 @@
-
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-
 require('./bootstrap');
 
 window.Vue = require('vue');
 
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
+//vue Router
+import Vue from 'vue'
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
 
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+//Debug tool
+Vue.config.devtools = true;
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Components
+import Home from './components/Pages/Home.vue'
+import Resume from './components/Pages/Resume.vue'
+import Portfolio from './components/Pages/Portfolio.vue'
+import AllExperiences from './components/Sections/Experience/AllExperiences.vue'
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
+
+const files = require.context('./', true, /\.vue$/i);
+files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+
+//Router
+const router = new VueRouter({
+    routes: [
+        {
+            path: '/',
+            name: 'Home',
+            component: Home
+        },
+        {
+            path: '/resume',
+            name: 'Resume',
+            component: Resume
+        },
+        {
+            path: '/experiences',
+            name: 'Experience',
+            component: AllExperiences
+        },
+        {
+            path: '/portfolio',
+            name: 'Portfolio',
+            component: Portfolio
+        },
+        { path: '*', redirect: '/' }
+    ]
+});
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router,
 });

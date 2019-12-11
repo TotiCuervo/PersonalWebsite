@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'HomeController@index')->name('home');
-
-Route::get('/huru', 'HuruController@index')->name('huru');
+Route::get('/', function () {
+    return view('app');
+});

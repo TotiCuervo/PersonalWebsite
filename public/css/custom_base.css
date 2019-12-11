@@ -1,0 +1,43 @@
+.font-alatsi {
+    font-family: 'Alatsi', sans-serif !important;
+}
+
+.font-ibm {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-alatsi !important;
+}
+
+body {
+    @apply font-ibm !important;
+}
+
+h1 {
+    @apply text-3xl !important;
+}
+
+h3 {
+    @apply text-xl !important;
+}
+
+h4 {
+    @apply text-lg !important;
+}
+
+h5 {
+    @apply text-base !important;
+}
+
+h6 {
+    @apply text-sm !important;
+}
+
+li {
+    @apply font-alatsi;
+}
+
+small {
+    @apply text-blue-600;
+}

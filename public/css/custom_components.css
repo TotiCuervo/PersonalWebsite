@@ -1,0 +1,79 @@
+.font-ibm {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+
+/*nav-items*/
+.nav-item {
+    @apply py-3 border-t cursor-pointer;
+    transition: all .2s ease!important;
+}
+.nav-item:hover {
+    @apply bg-gray-100
+}
+ul li.nav-item:last-child {
+    @apply border-b;
+}
+.nav-item.selected {
+    @apply border-r-4;
+    border-right-color: theme('colors.blue.500');
+}
+
+
+/*sidebar*/
+.sidebar {
+    @apply fixed w-5/9 ml-nfull text-center pt-10 bg-white h-full;
+    box-shadow: 5px 0px 20px 0px rgba(0,0,0,0.1);
+    transition: all 0.5s ease-in-out;
+}
+@screen md {
+    .sidebar {
+        @apply m-0 w-2/9 shadow-none;
+    }
+}
+
+/*containers*/
+.content-container {
+    @apply bg-white w-full h-full;
+    padding: 50px 10px;
+}
+@screen md {
+    .content-container {
+        padding: 20px 70px 50px;
+    }
+}
+
+/*page header*/
+.pageHeader {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 text-center;
+    width: 200px;
+    margin-left: -10px;
+}
+@screen md {
+    .pageHeader {
+        margin-left: -70px;
+    }
+}
+
+/*side link*/
+.side-link {
+    @apply text-sm font-ibm cursor-pointer;
+    transition: all .2s ease!important;
+}
+.side-link:hover {
+    @apply text-base text-blue-500;
+}
+
+/*img overlay*/
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+a:hover .grayscale {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+
